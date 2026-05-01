@@ -86,7 +86,7 @@ section{padding:5rem 2rem}
 .city-list li .note{color:var(--gold);font-size:0.72rem;margin-left:auto;white-space:nowrap}
 .area-cta{text-align:center;margin-top:2.5rem}
 
-/* GALLERY */
+/* GALLERY */<gallery section
 .gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem;max-width:1100px;margin:0 auto}
 .gallery-item{aspect-ratio:4/3;border-radius:10px;overflow:hidden;position:relative;background:var(--dark3);border:1px solid rgba(201,168,76,0.1);display:flex;align-items:center;justify-content:center;transition:all 0.3s;cursor:pointer}
 .gallery-item:hover{border-color:var(--gold);transform:scale(1.02)}
@@ -96,6 +96,28 @@ section{padding:5rem 2rem}
 .gallery-placeholder p{font-size:0.75rem;color:var(--muted)}
 .gallery-item .del-btn{position:absolute;top:6px;right:6px;background:rgba(0,0,0,0.7);border:none;color:#fff;width:24px;height:24px;border-radius:50%;cursor:pointer;font-size:0.75rem;display:none;align-items:center;justify-content:center;line-height:1}
 .gallery-item:hover .del-btn{display:flex}
+  --->
+  <!-- GALLERY SECTION START -->
+<section id="gallery">
+
+  <!-- Before & After heading -->
+  <div class="section-header">
+    <h2>Our Work</h2>
+  </div>
+
+  <!-- Images grid start -->
+  <div class="gallery-grid">
+
+    <!-- Car 1 image -->
+    <div class="gallery-item">
+      <img src="images/car1.jpg" alt="Car detailing">
+    </div>
+
+  </div>
+  <!-- Images grid end -->
+
+</section>
+<!-- GALLERY SECTION END -->
 
 /* UPLOAD AREA */
 .upload-area{max-width:700px;margin:2rem auto 0}
